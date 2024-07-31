@@ -1,13 +1,10 @@
 # Student Performance Analysis
 
-## Table of Contents
+## Overview
 
-- [Dataset Description](#dataset-description)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Key Findings](#key-findings)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
-- [Results](#results)
+In the Student Performance Analysis project, Python libraries such as pandas, Matplotlib, and seaborn were utilized to examine and visualize how various factors like nutrition, parental education, and test preparation impact academic performance. Key findings include the significant influence of standard lunch on higher performance, the positive correlation between higher parental education and better student outcomes, and the observation that students who completed test preparation courses scored better overall.
+
+![Students Performance Analysis](https://github.com/zinnydigits/studentsperformance-/blob/main/studentsperformance.png)
 
 ## Dataset Description
 
@@ -68,15 +65,6 @@ The analysis was performed using Jupyter Notebook and the following Python libra
   - 60% of the bottom 10 students are females.
   - No students from ethnic group D are among the bottom 10.
 
-## Usage
-
-To replicate the analysis or use the dataset, clone the repository and run the Jupyter Notebook:
-
-```bash
-git clone https://github.com/zinnydigits/studentsperformance.git
-cd student_performance
-jupyter notebook
-```
 
 ## Dependencies
 
@@ -87,12 +75,7 @@ The following Python libraries are required:
 - Matplotlib
 - seaborn
 
-You can install the dependencies using pip:
-
-```bash
-pip install pandas numpy matplotlib seaborn
-```
 
 ## Results
 
-The results of the analysis are presented in the Jupyter Notebook https://github.com/zinnydigits/studentsperformance-/blob/main/students_performance.html`. It includes detailed visualizations and insights derived from the dataset.
+The results of the analysis are presented in the Jupyter Notebook https://github.com/zinnydigits/studentsperformance-/blob/main/students_performance.pdf`. It includes detailed visualizations and insights derived from the dataset.
